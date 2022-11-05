@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 const data = [
   {
     id: "twitter",
-    link: "https://twitter.com/rioba_riri",
-    title: "@IanRioba",
+    link: "https://twitter.com/ohallo_jackson",
+    title: "Twitter",
   },
   {
     id: "btn__zuri",
