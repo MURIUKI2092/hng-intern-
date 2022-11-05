@@ -5,7 +5,7 @@ import "./contact.css";
 const Contact = () => {
   function handleSubmit(e) {
     e.preventDefault();
-    alert("Message sent!");
+    alert(" Message sent successfully!");
   }
 
   return (
