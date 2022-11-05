@@ -20,7 +20,7 @@ const data = [
 
   {
     id: "book__python",
-    link: "https://books.zuri.team/python-for-beginners?ref_id=IanRioba",
+    link: "https://books.zuri.team/python-for-beginners?ref_id=jacksonOhallo",
     title: "Python Books",
   },
   {

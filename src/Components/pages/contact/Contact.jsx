@@ -68,7 +68,7 @@ const Contact = () => {
           </div>
           <div className="checkbox__container">
             <input type="checkbox" name="agree" /> You agree to providing your
-            data to Ian Rioba who may contact you
+            data to Jackson Ohallo who may contact you
           </div>
           <button type="submit" id="btn__submit">
             Send Message

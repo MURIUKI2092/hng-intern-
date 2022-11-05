@@ -8,7 +8,10 @@ const Social = () => {
       <a href="https:slack.com/jaseric">
         <img src={slack} alt="slack" />
       </a>
-      <a href="https:github.com/jacksonohallo">
+      
+      {/* my other github account is:https://github.com/jacksonohallo */}
+
+      <a href="https:github.com/MURIUKI2092">
         <img src={github} alt="github" />
       </a>
     </div>
