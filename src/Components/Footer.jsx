@@ -1,12 +1,13 @@
 import React from "react";
-import ingressive  from "../images/ingressive.jpg";
-
+import zuri from "../images/Vector.png";
+import i4g from "../images/I4G.png";
 
 const Footer = () => {
   return (
     <footer className="App footer__section">
-     <p>HNG Internship 9 Frontend Task</p>
-     <img src={ingressive} alt="ingressive for good" />
+      <img src={zuri} alt="zuri internship" />
+      <p>HNG Internship 9 Frontend Task</p>
+      <img src={i4g} alt="ingressive for good" />
     </footer>
   );
 };
