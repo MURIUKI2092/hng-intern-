@@ -1,0 +1,148 @@
+.contact__container {
+    margin: 130px 120px 188px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.contact__header {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact__header h1 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+.contact__header p {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--Gray-600);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.name__container {
+    display: flex;
+    gap: 24px;
+}
+
+.detail__container {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 100%;
+}
+
+.label {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--Gray-700);
+}
+
+input {
+    height: 44px;
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: 1px solid var(--Gray-300);
+    box-shadow: 0 1px 2px rgba(16, 24, 40, 0.05);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    outline: none;
+}
+
+input::placeholder {
+    color: var(--Gray-500);
+}
+
+input:focus {
+    border: 1px solid var(--Primary-300);
+}
+
+textarea {
+    height: 132px;
+    padding: 12px 14px;
+    border-radius: 8px;
+    border: 1px solid var(--Gray-300);
+    box-shadow: 0 1px 2px rgba(16, 24, 40, 0.05);
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    outline: none;
+}
+
+textarea:focus {
+    border: 1px solid var(--Primary-300);
+}
+
+input:hover,
+textarea:hover,
+form button:hover {
+    transform: scale(1.01);
+}
+
+.checkbox__container {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--Gray-500);
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    border-radius: 6px;
+    border: 1px solid var(--Gray-300);
+}
+
+form button {
+    padding: 12px 20px;
+    background-color: var(--Primary-600);
+    border: 1px solid var(--Primary-600);
+    box-shadow: 0 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .contact__container {
+        margin: 64px 0;
+    }
+
+    .contact__header {
+        gap: 16px;
+    }
+
+    .contact__header p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .name__container {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+  
+
+    .checkbox__container {
+        align-items: flex-start;
+    }
+}
