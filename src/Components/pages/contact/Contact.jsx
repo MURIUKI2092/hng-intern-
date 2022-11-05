@@ -1,6 +1,6 @@
 import React from "react";
 import Footer from "../../Footer";
-import "./Contact.css";
+import "./contact.css";
 
 const Contact = () => {
   function handleSubmit(e) {
