@@ -1,6 +1,6 @@
 import React from "react";
-import github from "../images/github.png";
-import slack from "../images/slack.png"
+import github from "../images/github copy.png";
+import slack from "../images/slack copy.png"
 
 const Social = () => {
   return (

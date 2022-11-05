@@ -1,91 +1,128 @@
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+:root {
+  --Gray-300: hsl(0, 1%, 58%);
+  --Gray-600: hsl(0, 5%, 51%);
+  --Gray-700: hsl(0, 2%, 37%);
+
+  --Primary-300: hsl(240, 100%, 66%);
+  --Primary-600: rgba(0, 0, 196, 0.763);
 }
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: hsl(220, 43%, 11%);
+  ;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: hsl(220, 43%, 11%);
+}
+
+
+/* finish css resets */
+
 
 .profile {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 20px;
-}
-
-#twitter {
-  font-weight: bold;
-}
-
-#profile_img {
-  height: 75px;
-  width: 75px;
+  width: 88px;
   border-radius: 50%;
+  margin-bottom: 1em;
 }
 
-#slack {
-  visibility: hidden;
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 80%;
+  position: relative;
+}
+
+.App h1 {
+  font-size: 1.5rem;
+}
+
+.col {
+  padding: 5vmin 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.main__content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 3em;
 }
 
 .links {
   display: flex;
-  flex-direction: column;
   align-items: center;
-}
-
-#twitter_link,
-#btn_zuri,
-#books,
-#book_python,
-#pitch,
-#book_design {
-  background-color: #eeeef0;
-  color: black;
-  margin: 10px;
-  padding: 5px;
-  width: 1200px;
-  text-decoration: none;
+  flex-direction: column;
+  gap: .75rem;
+  width: 80%;
   text-align: center;
-  border-radius: 10px;
+  margin-top: 2em;
 }
 
-.react-icon {
-  margin-left: 950px;
-  position: relative;
-  bottom: 185px;
+.links a {
+  padding: 1em;
+  background: #ddd;
+  width: 100%;
+  border-radius: 5px;
 }
 
-.icons {
-  margin-left: 670px;
-  padding: 10px;
-}
+.social__icons {
 
-.slack-img,
-.git-hub {
-  height: 18px;
-  width: 15px;
-  padding: 5px;
-}
-
-.footer {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  margin-top: 1em;
 }
 
-.intern {
-  font-weight: bold;
-  margin-right: 150px;
+.social__icons *:nth-child(2) {
+  margin-left: .5em;
 }
 
-.intern span {
-  color: #e7332b;
+
+.footer__section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  bottom: 0;
+  padding: 5em 0;
 }
 
-.phase {
-  font-size: 10px;
-  margin-right: 100px;
+.footer__section img {
+  width: 15%;
 }
 
-.ingressive_logo {
-  height: 50px;
-  background-color: white;
+@media (max-width:568px) {
+  .footer__section {
+    padding: 2em 0;
+    bottom: 0;
+    top: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .footer__section img {
+    width: 50%;
+  }
 }
