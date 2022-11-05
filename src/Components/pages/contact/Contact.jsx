@@ -75,6 +75,8 @@ const Contact = () => {
           </button>
         </form>
       </div>
+       {/* 👇️ basic horizontal line */}
+      <hr />
       <Footer />
     </div>
   );

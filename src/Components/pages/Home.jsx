@@ -10,6 +10,10 @@ const Home = () => {
       <Profile />
       <Links />
       <Social />
+      
+
+
+
       <Footer />
     </div>
   );
