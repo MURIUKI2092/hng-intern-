@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "../Footer";
 import Links from "../Links";
 import Profile from "../Profile";
-import Socials from "../Social";
+import Social from "../Social";
 
 const Home = () => {
   return (
