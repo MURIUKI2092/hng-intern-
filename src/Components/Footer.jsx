@@ -2,7 +2,6 @@ import React from "react";import React from "react";
 import ingressive  from "../images/ingressive.jpg";
 
 
-
 const Footer = () => {
   return (
     <footer className="App footer__section">
