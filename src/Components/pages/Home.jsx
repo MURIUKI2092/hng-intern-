@@ -9,7 +9,7 @@ const Home = () => {
     <div className="App col">
       <Profile />
       <Links />
-      <Social />""
+      <Social />
       <Footer />
     </div>
   );
